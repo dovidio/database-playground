@@ -1,0 +1,13 @@
+version: '3'
+services:
+  database:
+    image: oracle/database:18.4.0-xe
+    volumes:
+      # if you are running linux or max, the host folder will likely be different :)
+      - /c/dbplayground/oracle:/opt/oracle/oradata # persistent oracle database data.
+    ports:
+      - 1521:1521
+      - 8080:8080
+      - 5500:5500
+    environment:
+      - ORACLE_PWD=oracle
