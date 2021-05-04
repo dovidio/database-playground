@@ -27,4 +27,4 @@ run **import-db-book-data.sh**
 **User**: sys as sysdba
 
 **Password**: oracle
-![setup](intellij setup.png)
+![setup](intellij-setup.png)
