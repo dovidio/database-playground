@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  db:
+    tty: true
+    stdin_open: true
+    image: dovidio/sqlite3-ubuntu
+    volumes:
+      - /c/dbplayground/sqlite:/data # make sure to create your sqlite dbs inside the data folder

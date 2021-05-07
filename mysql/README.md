@@ -1,3 +1,4 @@
+# Mysql
 ## Run the database
 To run the database, run the following command from the mysql folder
 ```bash

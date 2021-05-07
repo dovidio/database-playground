@@ -1,3 +1,4 @@
+# Postgres
 ## Run the database
 To run the database, run the following command from the postgres folder
 ```bash
