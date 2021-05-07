@@ -7,3 +7,4 @@ This make it easy to experiment and compare the different solutions available.
 - Oracle
 - Mysql
 - Postgres
+- SQLite
